@@ -32,7 +32,7 @@ fun main() {
     // 返回的是一个包含键值对的新集合
     var list3 = list1.zip(list2)
     var list4 = list3.toMap()
-    println(list3)
+    println(list3) 
     println(list4)
 
     // 根据自定义的表达式计算合并结果 fold(0) 0代表初始值为0
