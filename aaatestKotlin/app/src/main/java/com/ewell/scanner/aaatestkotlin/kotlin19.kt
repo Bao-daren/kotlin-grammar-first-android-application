@@ -35,7 +35,7 @@ fun main() {
     println(list3)
     println(list4)
 
-    // 根据自定义的表达式计算合并结果
+    // 根据自定义的表达式计算合并结果 fold(0) 0代表初始值为0
     val foldedValue = listOf(1,2,3,4).fold(0){acc, i ->
         println("acc value: $acc")
         // 每个元素*10 然后依次累加
